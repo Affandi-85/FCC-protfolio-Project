@@ -18,11 +18,13 @@ a{
 /* Header 
 ============*/
 
-#navbar{
-  
+header{
+  position: sticky;
+  top:0;
 }
 
 #navbar ul{
+  
   background-color: blue;
   list-style-type: none;
   display: flex;
