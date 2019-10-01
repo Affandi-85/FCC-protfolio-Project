@@ -14,13 +14,24 @@
   --bg-dark:#1B242F;
 }
 
+body{
+  background: var(--bg-dark);
+  color: var(--clr-light);
+}
+
+
 /*Typography
 ================*/
 
 
 a{
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: var(--clr-light);
+}
+
+a:hover,
+a:focus{
+ color: var(--clr-speacial);
 }
 
 strong{
@@ -56,14 +67,7 @@ header{
   padding: .75em 1em;
 }
 
-#navbar a{
-  color: var(--clr-light);
-}
 
-#navbar a:hover,
-#navbar a:focus{
-  color: var(--clr-speacial);
-}
 
 /* welcome-section 
 ===================*/
