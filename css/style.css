@@ -6,3 +6,32 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+/*Typography
+================*/
+
+
+a{
+  text-decoration: none;
+}
+
+/* Header 
+============*/
+
+#navbar{
+  
+}
+
+#navbar ul{
+  background-color: blue;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+#navbar li{
+  font-size: 1.5em;
+  text-decoration: none;
+  padding: .75em 1em;
+}
