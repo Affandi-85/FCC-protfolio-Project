@@ -7,12 +7,18 @@
   box-sizing: border-box;
 }
 
+:root { 
+  --bg-dark:rgb(26, 26, 26);
+  --bg-light:rgba(194, 45, 102, 0.867);
+}
+
 /*Typography
 ================*/
 
 
 a{
   text-decoration: none;
+  color: rgb(0, 0, 0);
 }
 
 /* Header 
@@ -24,8 +30,7 @@ header{
 }
 
 #navbar ul{
-  
-  background-color: blue;
+  background-color: var(--bg-light);
   list-style-type: none;
   display: flex;
   justify-content: flex-end;
