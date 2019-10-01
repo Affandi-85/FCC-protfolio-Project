@@ -8,8 +8,8 @@
 }
 
 :root { 
-  --bg-dark:rgb(26, 26, 26);
-  --bg-light:rgba(194, 45, 102, 0.867);
+  --clr-dark:rgb(26, 26, 26);
+  --clr-light:rgba(143, 4, 46, 0.867);
 }
 
 /*Typography
@@ -21,6 +21,17 @@ a{
   color: rgb(0, 0, 0);
 }
 
+strong{
+  color: var(--clr-light);
+}
+
+
+h1,h2{
+  padding-bottom: .5em;
+}
+
+
+
 /* Header 
 ============*/
 
@@ -30,7 +41,7 @@ header{
 }
 
 #navbar ul{
-  background-color: var(--bg-light);
+  background-color: var(--clr-light);
   list-style-type: none;
   display: flex;
   justify-content: flex-end;
@@ -42,3 +53,22 @@ header{
   text-decoration: none;
   padding: .75em 1em;
 }
+
+
+/* welcome-section 
+===================*/
+
+#welcome-section{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+
+
+#welcome-section a{
+  margin-top: 4em;
+}
+
