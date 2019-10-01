@@ -47,7 +47,6 @@ h1,h2{
 
 img {
   max-width: 100%;
-  display: block;
   height: auto;
 }
 
@@ -99,3 +98,56 @@ header{
   color: var(--clr-light);
 }
 
+/* Portfolio
+============*/
+
+#port{
+  width: 95%;
+  margin: auto;
+}
+
+.glary{
+  display: flex;
+  flex-direction: column;
+}
+.port-item{
+  margin: 2em auto;
+  position: relative;
+}
+
+.por-dec{
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 2em;
+  color: #fff;
+  background-color: rgba(0,0,0,.6);
+}
+
+
+.por-dec p{
+  margin: .5em 0 1em;
+}
+
+/* 
+
+@media (min-width:900px){
+
+  .glary{
+    flex-direction: row;
+  }
+
+  .port-item {
+      overflow: hidden;
+  }
+
+  .por-dec{
+      transform: translateY(150%);
+  }
+
+  .port-item:hover .por-dec{
+      transform: translateY(0%);
+  }
+} */
