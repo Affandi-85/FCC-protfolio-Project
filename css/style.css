@@ -36,11 +36,6 @@ a:focus{
  color: var(--clr-speacial);
 }
 
-strong{
-  color: var(--clr-speacial);
-}
-
-
 h1,h2{
   margin-bottom: 1.5em;
 }
@@ -48,6 +43,16 @@ h1,h2{
 img {
   max-width: 100%;
   height: auto;
+}
+
+strong{
+  color: var(--clr-speacial);
+}
+
+hr{
+  width: 100wv;
+  margin: 2em;
+  color: var(--clr-speacial);
 }
 
 .btn{
