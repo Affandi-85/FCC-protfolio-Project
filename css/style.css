@@ -90,7 +90,7 @@ header{
 ===================*/
 
 #welcome-section{
-  height: 75vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -101,16 +101,16 @@ header{
 /* Portfolio
 ============*/
 
-#port{
+#projects{
   width: 95%;
   margin: auto;
 }
 
-.glary{
+.con{
   display: flex;
   flex-direction: column;
 }
-.port-item{
+.project-tile{
   margin: 2em auto;
   position: relative;
 }
