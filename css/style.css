@@ -134,26 +134,25 @@ header{
 }
 
 
-.por-dec p{
-  margin: .5em 0 1em;
+.proj-name{
+  margin: 1em 0 1.5em;
 }
 
 
 .pro-link:hover,
-.pro-link:focus{
-  border-color: var(--clr-dark);
-  color:var(--clr-dark);
+.pro-link:focus .por-dec{
+  background: var(--clr-light);
 }
 
-/* 
 
-@media (min-width:900px){
 
-  .glary{
+@media (min-width:600px){
+
+  /* .con{
     flex-direction: row;
-  }
+  } */
 
-  .port-item {
+  .project-tile {
       overflow: hidden;
   }
 
@@ -161,7 +160,7 @@ header{
       transform: translateY(150%);
   }
 
-  .port-item:hover .por-dec{
+  .project-tile:hover .por-dec{
       transform: translateY(0%);
   }
-} */
+} 
