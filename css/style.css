@@ -140,9 +140,10 @@ header{
 
 
 .pro-link:hover,
-.pro-link:focus .por-dec{
+.pro-link:focus{
   background: var(--clr-light);
 }
+
 
 #profile-link{
   font-size: 1.25em;
@@ -170,15 +171,15 @@ header{
   } */
 
   .project-tile {
-      overflow: hidden;
+    overflow: hidden;
   }
 
   .por-dec{
-      transform: translateY(150%);
+    transform: translateY(150%);
   }
 
   .project-tile:hover .por-dec{
-      transform: translateY(0%);
+    transform: translateY(0%);
   }
 } 
 /* 
