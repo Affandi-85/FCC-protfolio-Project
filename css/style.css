@@ -50,7 +50,7 @@ strong{
 
 hr{
   width: 100wv;
-  margin: 2em;
+  margin: 3em 2em;
   color: var(--clr-speacial);
 }
 
@@ -196,9 +196,11 @@ header{
 
 #contact h3{
   margin: 1em;
+  font-size: 1.5em;
 }
 
 .con-item{
+  font-size:1.25em;
   padding: .5em;
 }
 
