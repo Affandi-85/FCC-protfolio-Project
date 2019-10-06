@@ -143,16 +143,22 @@ header{
   background: var(--clr-light);
 }
 
-
+/* Button Animation*/
 #profile-link{
   font-size: 1.25em;
   margin: 2em;
+  padding: 0 1em;
+}
+
+#profile-link:hover{
+  padding: 0 4em 0 1em;
 }
 
 #profile-link:hover i{
   animation-name: mv-right;
   animation-duration: 1000ms;
   animation-fill-mode: forwards;
+  animation-delay: 500ms;
   animation-iteration-count: infinite; 
   animation-timing-function: linear;
 }
