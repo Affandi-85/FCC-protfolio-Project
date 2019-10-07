@@ -10,7 +10,7 @@
 
 :root { 
   --clr-dark:rgb(26, 26, 26);
-  --clr-light:#fff;
+  --clr-light:rgb(212, 212, 212);
   --clr-speacial:#E31B6D;
   --bg-dark:#1B242F;
 }
@@ -117,6 +117,7 @@ header{
 .con{
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .project-tile{
   margin: 2em auto;
@@ -216,13 +217,34 @@ header{
   .project-tile img{
     width: 450px;
   }
+
+  #contact{
+    display: flex;
+    justify-content: flex-end;
+    margin: 1em 2em;
+  }
+  #contact h3{
+    margin-right: 2em;
+  }
 }
 
+@media only screen and (min-width:800px){
+
+  .contact-links{
+    flex-direction: row;
+  }
+
+  #contact{
+    flex-direction: column;
+  }
+}
+
+/*
 @media (min-width:600px){
 
-  /* .con{
+  .con{
     flex-direction: row;
-  } */
+  } 
 
   .project-tile {
     overflow: hidden;
@@ -236,3 +258,4 @@ header{
     transform: translateY(0%);
   }
 } 
+*/
