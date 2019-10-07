@@ -145,11 +145,10 @@ header{
 #profile-link{
   font-size: 1.25em;
   margin: 2em;
-  padding: 0 1em;
 }
 
 #profile-link:hover{
-  padding: 0 4em 0 1em;
+  padding-right: 4em;
 }
 
 #profile-link:hover i{
