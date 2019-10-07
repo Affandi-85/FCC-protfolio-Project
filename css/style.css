@@ -190,32 +190,30 @@ header{
   animation-timing-function: linear;
 }
 
-@keyframes mv-top {
-  0% { -webkit-transform:translateY(-5px); }
-  50% { -webkit-transform: translateY(-10px); }
-  100% { -webkit-transform: translateY(0px); }
-} 
 
 #welcome-section a:hover{
-  animation-name: mv-rigth;
+  animation-name: mv-top;
   animation-duration: 500ms;
   animation-fill-mode: forwards;
   animation-iteration-count: infinite; 
   animation-timing-function: linear;
 } 
 
-@keyframes mv-rigth {
+@keyframes mv-top {
   0% { -webkit-transform:translateY(-5px); }
   50% { -webkit-transform: translateY(-10px); }
   100% { -webkit-transform: translateY(0px); }
 } 
-
 
 /* */
 
 @media only screen and (min-width:500px) {
   #welcome-section{
     font-size: 1.5em;
+  }
+
+  .project-tile img{
+    width: 450px;
   }
 }
 
