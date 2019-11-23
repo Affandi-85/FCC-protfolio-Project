@@ -35,13 +35,14 @@ a:hover,
 a:focus{
  color: var(--clr-speacial);
 }
-h1,h2{
-  margin-bottom: 1.5em;
+
+h2{
+  margin: 1.25em 0;
 }
 
 img {
   max-width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 strong{
@@ -104,6 +105,7 @@ header{
   justify-content: center;
   font-size: 1em;
   color: var(--clr-light);
+  transform: translateY(-2em);
 }
 
 /* Portfolio
@@ -119,9 +121,11 @@ header{
   flex-direction: column;
   justify-content: center;
 }
+
 .project-tile{
   margin: 2em auto;
   position: relative;
+  background-color: var(--bg-dark);
 }
 
 .por-dec{
@@ -178,6 +182,7 @@ header{
 }
 
 .con-item{
+  margin-bottom: 2em;
   font-size:1.25em;
   padding: .5em;
 }
@@ -236,15 +241,20 @@ header{
   #contact{
     flex-direction: column;
   }
+  
 }
 
-/*
-@media (min-width:600px){
-
+@media (min-width:900px){
   .con{
     flex-direction: row;
-  } 
+    justify-content:space-evenly;
+  }
 
+  .project-tile{
+    margin:  0 1em 2em;
+    outline: solid 1px var(--clr-speacial);
+  }
+  
   .project-tile {
     overflow: hidden;
   }
@@ -256,5 +266,6 @@ header{
   .project-tile:hover .por-dec{
     transform: translateY(0%);
   }
-} 
-*/
+
+   
+}
